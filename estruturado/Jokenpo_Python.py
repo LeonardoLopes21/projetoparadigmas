@@ -5,7 +5,7 @@ def main():
 
     while jogar_novamente.lower() == 's':
         print("\n=== Pedra (1), Papel (2) ou Tesoura (3)? ===")
-        
+
         try:
             usuario = int(input("Digite sua escolha: "))
         except ValueError:
